@@ -1,0 +1,293 @@
+@media (min-width: 992px) {
+	section {
+		height: 100vh;
+	}
+
+	.header{
+		z-index: 1;
+	}
+	/* Navbar */
+	.nav-link {
+		margin-right: 20px;
+	}
+
+	.nav-item i {
+		margin-top: 12px;
+		margin-left: 0px;
+		background-color: none;
+		color: #6571b8;
+		
+	} 
+
+	.pc {
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+
+	.pp {
+		padding-top: 160px;
+		padding-bottom: 100px;
+	}
+
+	.navbar-brand {
+		font-family: Play;
+		font-size: 25px;
+		color: #6571b8 !important;
+	}
+	/* Akhir Navbar */
+
+}
+
+	.radio {
+		margin-right: 10px;
+	}
+
+
+	* {
+		font-family: 'ABeeZee';
+	}
+
+	.carousel-item {
+		height: 100vh;
+		min-height: 300px;
+		/* background: no-repeat center center scroll; */
+		background-size: cover
+	}
+
+	.carousel-caption {
+		padding-bottom: 150px;
+	}	
+
+	.carousel-caption h5{
+		font-size: 50px;
+		letter-spacing: 2px;
+		margin-top: 25px;
+		margin-left: 55px;
+	}
+
+	.carousel-caption button {
+		background: #B9B3D5;
+		padding: 10px 30px;
+		display: inline-block;
+		color: white;
+		margin-top: 15px;
+		border: none;
+		border-radius: 25px;
+	}
+
+	.deleteBorder {
+		border: none;
+	}
+
+	.card-text {
+		color: #878787;
+	}
+
+	.card-img-top {
+		width: 100%;
+		height: 50%;
+		object-fit: cover;
+	}
+
+	.bd-img {
+		border-radius: 5px;
+	}
+
+	.card-title {
+		font-size: 20px;
+
+	}
+
+	#cardProg:hover{
+     transform: scale(1.05);
+	  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+	}
+
+	.icon {
+		width: 80px;
+		height: 80px;
+		margin: auto;
+	}
+
+	.img {
+		height: 100%;
+		width: 100%;
+	}
+
+	.big {
+		font-size: 30px;
+		margin-bottom: 20px
+	}
+
+
+	.small {
+		font-size: 14px;
+	}
+
+	.grey {
+		color: #878787;
+	}
+
+	.kotak {
+		margin-top: -32px;
+		height: 20px;
+  		width: 130px;
+	}
+
+	.pmuda {
+		background-color: #B9B3D5;
+	}
+
+	.ptua {
+		background-color: #6571b8;
+	}
+
+	.center {
+		margin-left: 45%;
+	}
+
+	.btn-primary {
+		background-color: #B9B3D5 !important;
+		border: none !important;
+	}
+
+	.btn-primary:hover {
+    	background-color: #6571b8 !important;
+		border: none;
+		box-shadow:0px 0px 3px #6571b8;
+	}
+
+	#button-addon2:hover {
+		background-color: #78c8d5 !important;
+	}
+
+/* Awal form */	
+	.formt-control {
+		position: relative;
+		padding-bottom: 20px;
+		margin-bottom: 8px;
+	}
+	
+	.formt-control label {
+		display: inline-block;
+		margin-bottom: 5px;
+	}
+	
+	.formt-control input {
+		border: 2px solid #f0f0f0;
+		border-radius: 4px;
+		display: block;
+		font-family: inherit;
+		font-size: 14px;
+		padding: 10px;
+		width: 100%;
+	}
+	
+	.formt-control i {
+		position: absolute;
+		top: 45px;
+		right: 15px;
+		visibility: hidden;
+	}
+	
+	.formt-control small {
+		visibility: hidden;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+	
+	.formt-control.error small {
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		color: rgb(206, 38, 38);
+		visibility: visible;
+	}
+	
+	.form button {
+		background-color: #8e44ad;
+		border: 2px solid;
+		border-radius: 4px;
+		font-family: inherit;
+		color: white;
+		display: block;
+		padding: 10px;
+		width: 100%;
+		font-size: 16px;
+	}
+	
+	.formt-control.success input {
+		border-color: #2ecc71;
+	}
+	
+	.formt-control.error input {
+		border-color: rgb(206, 38, 38);
+	}
+	
+	.formt-control.success i.fa.fa-check-circle {
+		visibility: visible;
+		color:  #2ecc71;
+	}
+	
+	.formt-control.error i.fa.fa-exclamation-circle {
+		visibility: visible;
+		color:  rgb(206, 38, 38);
+	}
+/* Akhir form */
+
+
+/* Awal Footer */
+
+	.footer-top {
+		background-color: #6571b8;
+		padding: 80px 0;
+	}
+
+	.footer-top p {
+		color: rgb(208, 208, 208);
+		line-height: 25px;
+	}
+
+	.footer-top h2 {
+		color: #ffffff;
+		font-size: 18px;
+	}
+
+	.footer-top h3 {
+		font-family: Play;
+		font-size: 23px;
+		color: #ffffff;
+	}
+
+	.segment-two ul {
+		list-style: none;
+	}
+
+	.segment-two a {
+		color: rgb(208, 208, 208) !important;
+	}
+
+	.segment-two {
+		width: 100%;
+	}
+
+	.segment-three a {
+		background: #B9B3D5;
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		border-radius: 50%;
+	}
+
+	.segment-three a i, .segment-one i{
+		font-size: 20px;
+		color: #ffffff;
+		padding: 10px 12px;
+	}
+
+	.sosmed a {
+		margin-left: 10px;
+	}
+
+/* Akhir Footer */
